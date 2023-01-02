@@ -1,3 +1,158 @@
+
+#image
+{
+    position: absolute;
+    left: 15%;
+    width: 60%;
+}
+#nombre
+{
+   
+    position: absolute;
+    left: 34%;
+    top: 20%;
+
+
+}
+#hr1
+{
+    width: 30%;
+    
+}
+
+.navbar-expand-lg
+{
+    margin-bottom:5%;
+    width: 0%;
+}
+
+#p1
+{
+    position: absolute;
+    left: 23%;
+    bottom:50%;
+    font-size: 500%;
+    
+}
+
+.carru
+{
+    width:40vw;
+    position:absolute;
+    left: 28vw;
+    top: 13%;
+}
+.carusel
+{
+    width:40vw;
+    
+}
+#p2
+{
+    font-size: 300%;
+    display: flex;
+    justify-content:"center";
+    align-items: "center";
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    bottom:40%;
+}
+
+.hr2
+{
+    position: absolute;
+    width: 60%;
+    left: 18%;
+    top:60%;
+     
+    height: 12px; 
+    background: black; 
+   
+}
+.hr3
+{
+    position: absolute;
+    width: 60%;
+    left: 18%;
+    top: 30%;
+     
+    height: 12px; 
+    background: black; 
+   
+}
+#card1
+{
+     position: absolute;
+     top: 1%;
+    
+}
+#portafolio
+{
+    
+    top: 120%;
+}
+
+#port
+{
+   position: absolute;
+   bottom:-100px;
+
+ 
+}
+
+#generalAbout img
+{
+   position:absolute;
+   top: 100%;
+   z-index: -20;
+}
+
+#h1
+{
+    position: absolute;
+    left: 65%;
+    top:110%;
+    z-index: 20;
+}
+#h3
+{
+    position: absolute;
+    left: 50%;
+    top:130%;
+    z-index: 20;
+}
+#menu
+{
+    
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    z-index: 100;
+}
+
+#generalPortafolio img
+{
+    width: 100%;
+    position:absolute;
+    top: 200%;
+    z-index: -1; 
+    margin-bottom: 0%;
+
+}
+#generalContacto 
+{
+    position: absolute;
+    top: 320%;
+    z-index: 1;
+    background-color: #373535;
+    color: #f1def0;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    margin-top: 0%;
+
+}
 #proyectos
 {
     background-image: url("Scollo Pilar (3).png");
