@@ -192,7 +192,7 @@
 #java
 {
     width: 123%;
-    background-color: ##f1bed4;
+    background-color: #f1bed4;
 }
 
 #carta
@@ -247,11 +247,7 @@
 
 }
 
-#text
-{
-   
-    
-}
+
 #c
 {
     
@@ -327,6 +323,13 @@
     justify-content: center;
     align-items: center;
     background-image: url("Diseño sin título (12).png");
+    background-position:100%;
+    background-repeat:no-repeat ;
+}
+#textoabout :hover{
+    box-shadow: 0px 0px 30px  #837d7d;
+    
+     
 }
 body
 {
@@ -411,145 +414,86 @@ html, body{
     flex-direction: column;
   
   }
- 
-  @media  screen and (min-width:400px) and ( max-width:600px){
+  #sobre
+  {
     
-    #boton
-    {
-        display:inline-block;
-        padding: 10%;
-        margin: 2.25em 0px;
-        background-color: #DCBCD0;
-        border-radius: 10%;
-        border-color:  #DCBCD0;
-        
-    
-    
-    }
-    
-   h1,h2,h3,h4,h5{
-    font-size: 120%;
-    display:inline-block;
-    margin-left: 20%;
-    padding: 10%;
-    
-  
-    
+    white-space:nowrap;
    }
-   #texto
+   .carousel
    {
-    position:relative;
-    top:-35%; 
+    visibility:hidden;
+    display: none;
    }
-   #uno{
-    position:absolute;
-    top:-50%;
-   }
-   .dos{
-    
-    position: relative;
-    top: -40%;
-   }
-}
+   #habilidades2{
+       
 
-    
-  @media  screen and (min-width:300px)and ( max-width:400px){
-    
-    #boton
-    {
-        display:inline-block;
-        padding: 5%;
-        margin: 2.25em 0px;
-        background-color: #DCBCD0;
-        border-radius: 10%;
-        border-color:  #DCBCD0;
-        
+    visibility: hidden;
+    display: block;
     
     
-    }
+  }
    
-    
-   h1,h2,h3,h4,h5{
-    font-size: 100%;
-    display:inline-block;
-    margin-left: 25%;
-    padding: 10%;
-    
-  
-    
-   }
-   #texto
+ @media screen and (max-width:1000px) {
+    #inicio{
+    background-image:none;
+    }
+    #uno
+    {
+        font-size: 90%;
+      
+    }
+    .dos
+    {
+        font-size: 90%
+    }
+    #boton
    {
-    position:relative;
-    top:-35%; 
+    padding: 5%;
    }
-   #uno{
-    position:absolute;
-    top:-50%;
+   #conejo
+   {
+    width: 80%;
    }
-   .dos{
-    
-    position: relative;
-    top: -40%;
-   }
-}
- 
-@media  screen and ( max-width:300px){
-    
-    #boton
-    {
-        
-        padding: 1%;
-        margin-top: 10%;
-        
-        margin-top: 0%;
-        background-color: #DCBCD0;
-        border-radius: 10%;
-        border-color:  #DCBCD0;
-        
-    
-    
-    }
    
-    
-   h1,h2,h3,h4,h5{
+
+   .row{
+    visibility: hidden;
+    display: none;
+   }
+   
+   .carousel{
+    visibility: visible;
+    display:block;
+    width: 60%;
+   }
+
+   #textoabout h5
+   {
+
     font-size: 60%;
-    display:inline-block;
-    margin-left: 25%;
-    padding: 10%;
     
-  
+      }
+      .card{
+       
+
+        visibility: hidden;
+        display: block;
+
+        
+      }
+      #habilidades
+      {
+        visibility: hidden;
+        display: none;
+        
+      }
+      
+      #bot
+      {
+        width: 20%;
+        position: relative;
+        left: 30%;
+      }
     
-   }
-   #texto
-   {
-    position:relative;
-    top:-35%; 
-   }
-   #uno{
-    position:absolute;
-    top:-50%;
-   }
-   .dos{
-    
-    position: relative;
-    top: -40%;
-   }
-   #botones
-{
-   
-    position: absolute;
-    left:10%;
-    top:5%;
-    
-    
-    
-    margin: -8%;
-    padding: 10%;
-  
 }
 
-}
-    
-         
-  
