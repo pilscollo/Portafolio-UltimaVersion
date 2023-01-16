@@ -4,6 +4,16 @@
     position: absolute;
     left: 15%;
     width: 60%;
+
+}
+img{
+    background-repeat: no-repeat;
+}
+#conejo:hover
+{
+ 
+   width: 50%;
+    
 }
 #nombre
 {
@@ -13,6 +23,10 @@
     top: 20%;
 
 
+}
+.ab{
+   margin-top: 100%;
+   margin-left: 100%;
 }
 #hr1
 {
@@ -226,6 +240,7 @@
     align-items: center;
     background-image: url("Scollo Pilar (4).png");
 }
+
 .botonfin
 {
     
@@ -239,6 +254,17 @@
     border-color:  #DCBCD0;
     left: 20%;
 }
+.btn
+{
+    background-color: #DCBCD0;
+    border: #DCBCD0;
+}
+.btn:hover
+{
+    background-color: #DCBCD0;
+    border: #DCBCD0;
+}
+
 #bot
 {
     display: flex;
@@ -432,7 +458,8 @@ html, body{
     
     
   }
-   
+ 
+
  @media screen and (max-width:1000px) {
     #inicio{
     background-image:none;
