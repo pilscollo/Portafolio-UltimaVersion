@@ -1,0 +1,487 @@
+
+
+/*Inicio */
+#imagenInicio
+{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+}
+#inicio
+{
+    height:100vh;
+    width: 100%;
+    background-position:100%;
+}
+h1{
+    font-family: monospace;
+}
+.img-move-wrapper {
+    position:absolute;
+    top:200px;
+    left: 40%;
+    border:none;
+    width: 15%;
+    }
+body
+{
+    background-color: #C8CAE4;
+}
+#textoCentro
+{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    right: 15px;
+}
+ /*Tecnologias */
+ #tecnologias
+{
+    height:100vh;
+    width: 100%;
+    background-position:100%;
+}
+
+#imagenComputadora
+{
+    width: 15%;
+    position:absolute;
+    top:110%;
+    left: 40%;
+    border:none;
+    width: 15%;
+}
+#imagenesTecnologia1D
+{
+   
+    position:absolute;
+    top:150%;
+    left: 15%;
+    
+  
+}
+#imagenesTecnologia2D
+{
+   
+    position:absolute;
+    top:180%;
+    left: 16%;
+    
+  
+}
+#imagenesTecnologia1C
+{
+   
+   width: 0%;
+    
+  
+}
+#imagenesTecnologia2C
+{
+   
+    width: 0%;
+    
+  
+}
+#c
+{
+    width: 10%;
+    margin-right: 5%;
+    
+}
+#java
+{
+    width: 5%;
+    margin-right: 9%;
+    margin-bottom: 2%;
+}
+#javascript
+{
+    
+    width: 5%;
+    margin-right: 9%;
+    margin-bottom: 2%;
+}
+#c2
+{
+    width: 5.5%;
+    margin-right: 10%;
+   
+}
+
+#sqlServer
+{
+    width: 10%;
+    margin-right: 10%;
+   
+}
+
+#html
+{
+    width: 4.5%;
+    margin-top:1%;
+    margin-right: 13%;
+    margin-left: 2%;
+}
+#git
+{ width: 6%;
+    margin-left: 2%;
+}
+/*about*/
+#about
+{
+    height:100vh;
+    width: 100%;
+    background-position:100%;
+}
+
+#imagenDerecha
+{
+  
+    width: 50%;
+    float: left
+}
+
+#text
+{
+    position: relative;
+    top: 20%;
+}
+#botondescarga
+{
+    position: relative;
+    right: 10%;
+}
+/*proyectos*/
+#proyecto
+{
+    height:100vh;
+    width: 100%;
+    background-position:100%;
+    position: relative;
+    
+}
+#carouselExampleAutoplaying
+{
+  width: 50%;
+  position: relative;
+  left:22%;
+  top:13%;
+  
+  
+}
+#titulo
+{
+    position: relative;
+  right:28%;
+  top:13%;
+  
+}
+#textoCarru
+{
+   position: relative;
+   bottom: 100px;
+   height: 110px;
+   background-color: #8487b5;
+   text-align: center;
+   
+}
+
+#subir
+{
+   margin-top: -20%;
+}
+/*Contacto*/
+#contacto
+{  height:100vh;
+    width: 100%;
+    background-position:100%;
+    position: relative;
+    
+}
+
+
+#textoVertical
+{
+    writing-mode: vertical-lr; 
+    float: right;
+       
+}
+h1
+{
+    color: #000000;
+}
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 10px;
+  
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-family:monospace;
+}
+
+.templatemo_sub_contacttitle {
+    width: 100%;
+    font-size: 22px;
+    color: #777bd5;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    top: 10%;
+}
+
+.templatemo_contact {
+    margin: 30px;
+    width: 100%;
+    margin-left: 15%;
+    position: relative;
+    top: 10%;
+    
+}
+
+.templatemo_contactform input, textarea {
+    width: 100%;
+    background: #000000;
+    border: 1px solid #000000;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #e3e2ec;
+    position: relative;
+    top: 10%;
+    
+}
+
+.templatemo_contactform textarea {
+    height: 100px;
+    position: relative;
+    top: 10%;
+}
+
+
+.templatemo_contactform .btn-primary {
+    background: #5d52dd;
+    border: none;
+    border-radius: 0px;
+    color: #dec3ec;
+    font-weight: 800;
+    position: relative;
+    top: 10%;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #7e8d5a;
+    position: relative;
+    top: 10%;
+}
+#botonesLaterales
+{
+    position:relative;
+    top:50%;
+}
+#botonfin
+{
+ 
+    
+    margin: 40%;
+    
+}
+.botonfin
+{
+    position: relative;
+    top: 240%;
+   
+ 
+}
+button
+{
+    background-color: transparent;
+    border: none;
+    margin-left: 10%;
+}
+
+
+@media screen and (min-width:1500px) and (max-width:2000px) {
+
+    #text
+    {
+        font-size: 180%;
+    }
+     #botondescarga
+     {
+        width: 10%;
+        height: 5vh;
+     }
+     #botonesLaterales
+     {
+         position:relative;
+         top:30%;
+     }
+
+}
+@media screen and (min-width:1500px) and (max-width:2000px) {
+
+    #text
+    {
+        font-size: 180%;
+    }
+     #botondescarga
+     {
+        width: 10%;
+        height: 5vh;
+     }
+     #botonesLaterales
+     {
+         position:relative;
+         top:30%;
+     }
+
+}
+
+@media screen  and (max-width:1000px) {
+
+    .img-move-wrapper {
+        position:absolute;
+        top:200px;
+        left: 25%;
+        border:none;
+        width: 50%;
+        }
+    
+        #imagenComputadora
+      {
+    width: 40%;
+    position:absolute;
+    top:110%;
+    left: 30%;
+    border:none;
+   
+    }
+
+#imagenesTecnologia1D
+{
+   
+    width: 0;
+    
+  
+}
+
+#imagenesTecnologia2D
+{
+   
+    width:0%;
+    
+  
+}
+#imagenesTecnologia1C
+{
+   
+    position:absolute;
+    top:150%;
+    left: 15%;
+    width: 200%;
+    
+  
+}
+#javascript
+{
+    position: relative;
+    left: 8%;
+    width: 5%;
+    margin-right: 9%;
+    margin-bottom: 2%;
+    
+}
+#imagenesTecnologia2C
+{
+   
+    position:absolute;
+    top:180%;
+    left: 16%;
+    width: 200%;
+    
+  
+}
+#git
+{
+    position: relative;
+    right: 8%;
+}
+
+#imagenInicio
+{
+    left:4.8%;
+}
+#imagenDerecha
+{
+    width: 100%;
+    float: left
+}
+#text
+{
+    position: relative;
+    font-size: 55%;
+    left: 6%;
+    top: -0%;
+
+    
+}
+#titulo
+{
+    position: relative;
+  left: 22%;
+  top:13%;
+  
+}
+#textoCarru
+{
+   position: relative;
+   bottom: 10%;
+   height: 120px;
+   background-color: #8487b5;
+   text-align: center;
+   
+   font-size: 60%;
+   
+}
+h3
+{
+    font-size: 100%; 
+}
+h5
+{
+    font-size: 100%; 
+}
+
+#textoVertical
+{
+    width: 0;
+       
+}
+#botonesLaterales
+{
+    position:relative;
+    top:50%;
+    width: 0;
+}
+#botonfin
+{
+ 
+    
+    margin: 40%;
+    width: 0;
+    
+}
+.botonfin
+{
+    position: relative;
+    top: 240%;
+    width: 0;
+   
+ 
+}
+}

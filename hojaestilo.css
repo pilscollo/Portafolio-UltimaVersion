@@ -244,7 +244,7 @@ img{
 .botonfin
 {
     
-    width: 130%;
+    width: 140%;
     
     display:inline-block;
     padding: 30%;
@@ -297,7 +297,8 @@ img{
     background-color:#FAD5E5 ;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    background-image: url("Scollo\ Pilar\ \(8\).png");
 }
 
 
@@ -330,7 +331,7 @@ img{
 }
 #textoabout
 {
-   background-color: #977EA0; 
+  
    border-radius: 2%;
    width: 80%;
    height: 50%;
@@ -338,6 +339,7 @@ img{
    display: flex;
     justify-content: center;
     align-items: center;
+   
    
 }
 #inicio
@@ -353,13 +355,14 @@ img{
     background-repeat:no-repeat ;
 }
 #textoabout :hover{
-    box-shadow: 0px 0px 30px  #837d7d;
+   
     
      
 }
 body
 {
    background-color: #FAF3DD;
+   background-repeat:no-repeat ;
 }
 #botonLateral
 { 
